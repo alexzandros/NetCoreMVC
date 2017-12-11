@@ -1,0 +1,44 @@
+@using EstudianteNS 
+@using Microsoft.EntityFrameworkCore
+@model DbSet<Estudiante>
+@{
+    ViewData["Title"] = "Listado de Estudiantes";
+}
+
+<div style="padding: 7px;">
+    <table border="1" style="border-collapse:collapse;">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>No. de Créditos</th>
+                <th>Becado</th>
+                <th>Tipo de Pago</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var estudiante in @Model){
+                <tr>
+                    <td>@estudiante.Nombre</td>
+                    <td>@estudiante.Apellido</td>
+                    <td>@estudiante.Credito</td>
+                    <td>@estudiante.Beca.ToUpper()</td>
+                    <td>@estudiante.Tipopago</td>
+                    <td>
+                        <a asp-action="EditarEstudiante" 
+                            asp-route-nombreEstudiante="@estudiante.Nombre">
+                            Editar
+                        </a>
+                        <a asp-action="BorrarEstudiante" 
+                            asp-route-nombreEstudiante="@estudiante.Nombre">
+                            Borrar
+                        </a>
+                    </td>
+                </tr>
+                
+            }
+        </tbody>
+    </table>
+
+</div>

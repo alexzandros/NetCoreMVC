@@ -1,0 +1,12 @@
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\bin\Debug\netcoreapp2.0\RegistroEstudiantesMVC.deps.json
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\bin\Debug\netcoreapp2.0\RegistroEstudiantesMVC.runtimeconfig.json
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\bin\Debug\netcoreapp2.0\RegistroEstudiantesMVC.runtimeconfig.dev.json
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\bin\Debug\netcoreapp2.0\RegistroEstudiantesMVC.dll
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\bin\Debug\netcoreapp2.0\RegistroEstudiantesMVC.pdb
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\obj\Debug\netcoreapp2.0\RegistroEstudiantesMVC.csproj.CoreCompileInputs.cache
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\obj\Debug\netcoreapp2.0\RegistroEstudiantesMVC.AssemblyInfoInputs.cache
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\obj\Debug\netcoreapp2.0\RegistroEstudiantesMVC.AssemblyInfo.cs
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\obj\Debug\netcoreapp2.0\RegistroEstudiantesMVC.dll
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\obj\Debug\netcoreapp2.0\RegistroEstudiantesMVC.pdb
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\bin\Debug\netcoreapp2.0\Alumnos.dll
+C:\Users\carlos\Documents\Personales\developer\dotnetcore\RegistroEstudiantesMVC\bin\Debug\netcoreapp2.0\Alumnos.pdb

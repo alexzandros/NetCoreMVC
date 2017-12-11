@@ -1,0 +1,15 @@
+@using EstudianteNS
+@model Estudiante
+
+@{
+    ViewData["Title"] = "Editar Estudiante";
+}
+
+<form asp-action="EditarEstudiante" method="POST">
+    <label asp-for="Nombre"></label> <input asp-for="Nombre" readonly> <br>
+    <label asp-for="Apellido"></label> <input asp-for="Apellido"> <br>
+    <label asp-for="Credito"></label> <input asp-for="Credito"> <br>
+    <label asp-for="Beca"></label> <input asp-for="Beca"> <br>
+    <label asp-for="Tipopago"></label> <input asp-for="Tipopago"> <br>
+    <button type="submit">Enviar</button>
+</form>
