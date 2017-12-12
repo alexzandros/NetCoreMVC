@@ -22,9 +22,10 @@ namespace RegistroEstudiantesMVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            services.AddMvc().AddXmlSerializerFormatters();
             services.AddDbContext<EstudianteNS.DALContext>();
             services.AddDbContext<EstudianteNS.DALMySQLContext>();
+            services.AddResponseCompression();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,7 +41,7 @@ namespace RegistroEstudiantesMVC
             }
 
             app.UseStaticFiles();
-
+            app.UseResponseCompression();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
